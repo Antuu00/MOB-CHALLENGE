@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak</title>
+</head>
+<body>
+    <ul>
+      <li><a href="index.html" target="_blank">Beranda</a></li>
+      <li><a href="proyek.html" target="_blank">Proyek</a></li>
+      <li><a href="blog.html" target="_blank">Blog</a></li>
+      <li><a href="kontak.html" target="_blank">Kontak</a></li>
+    </ul>
+    <h1>Kontak</h1>
+    <p>
+        Silakan hubungi kami melalui email: <a href="mailto:emaprizal11@gmail.com">emaprizal11@gmail.com</a>
+    </p>
+    <p>
+        Atas nama: Aprizal
+    </p>
+    <p>
+        No. Telp: 082284319405
+    </p>
+    <p>
+        Alamat: Jalan Raya Utara No. 123, Kecamatan Cileungsing, Kabupaten Bandung
+    </p>
+    <p>
+        Email: emaprizal11@gmail.com
+    </p>
+
+    <h2>Form Pesan</h2>
+    <form action="process_contact.php" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="subjek">Subjek:</label>
+        <input type="text" id="subjek" name="subjek" required><br><br>
+        <label for="isi">Isi Pesan:</label>
+        <textarea id="isi" name="isi" required></textarea><br><br>
+        <input type="submit" value="Kirim">
+       
+</body>
+</html>
